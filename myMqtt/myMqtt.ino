@@ -3,9 +3,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdint.h>
-#include <time.h>
-#include <sys/time.h>
-#include <SPI.h>
 #include <ESP8266WiFi.h>
 
 #include <AzureIoTHub.h>
@@ -17,7 +14,7 @@
 const char* ssid = "digitalisierung";
 const char* pass = "cloudification";
 
-const char* connectionString = "HostName=i3cmtesthub.azure-devices.net;DeviceId=gate1;SharedAccessKey=7mnKpOOcWrfXKMaIGwqoMAQ9wxYmrk2JUrZt1uHiJbM=";
+const char* connectionString = "HostName=i3cmhub.azure-devices.net;DeviceId=gate1;SharedAccessKey=P8hSkpx2U2onChJfdMTaRee7ODyQENW1JTRAHC8W4p4=";
 
 void setup() {
   
