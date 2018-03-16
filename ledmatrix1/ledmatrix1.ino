@@ -8,7 +8,7 @@ LedMatrix ledMatrix1 = LedMatrix(NUMBER_OF_DEVICES, CS_PIN1);
 LedMatrix ledMatrix2 = LedMatrix(NUMBER_OF_DEVICES, CS_PIN2);
 
 void setup() {
-  Serial.begin(115200); // For debugging output
+  Serial.begin(9600); // For debugging output
   ledMatrix1.init();
   ledMatrix1.setIntensity(4); // range is 0-15
   ledMatrix1.setText("Digitalisierung");
